@@ -1,0 +1,7 @@
+.
+./sku-form-fb.component.html
+./stoopid.txt
+./crazy.sh
+./sku-form-fb.component.ts
+./sku-form-fb.component.css
+./sku-form-fb.component.spec.ts
