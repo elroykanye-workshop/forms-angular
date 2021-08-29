@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SkuFormComponent } from './components/sku-form/sku-form.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { SkuFormFbComponent } from './components/sku-form-fb/sku-form-fb.component';
 
 @NgModule({
@@ -14,7 +14,8 @@ import { SkuFormFbComponent } from './components/sku-form-fb/sku-form-fb.compone
   ],
     imports: [
         BrowserModule,
-        FormsModule
+        FormsModule,
+        ReactiveFormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]

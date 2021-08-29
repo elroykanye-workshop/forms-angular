@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormGroup} from "@angular/forms";
 
 @Component({
   selector: 'app-sku-form-fb',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sku-form-fb.component.css']
 })
 export class SkuFormFbComponent implements OnInit {
+  myForm: FormGroup;
 
-  constructor() { }
+  constructor(fb: FormBuilder) {
+    this.myForm = fb.group({
+      'sku': ['ABC123']
+    })
+  }
 
   ngOnInit(): void {
+  }
+
+  onSubmit(value: string) : void {
+    console.log("You submitted value: ", value)
   }
 
 }

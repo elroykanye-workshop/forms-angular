@@ -1,1 +1,16 @@
-<p>sku-form-fb works!</p>
+<div class="ui raised segment">
+  <h2 class="ui header">Demo FormBuilder: SKU</h2>
+  <form class="form ui"
+        [formGroup]="myForm"
+        (ngSubmit)="onSubmit(myForm.value)">
+    <div class="field">
+      <label for="skuInput">SKU</label>
+      <input id="skuInput"
+             type="text"
+             placeholder="SKU"
+             [formControl]="myForm.value">
+    </div>
+
+    <button type="submit" class="ui button">Submit</button>
+  </form>
+</div>
