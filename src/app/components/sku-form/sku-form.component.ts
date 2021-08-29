@@ -12,4 +12,8 @@ export class SkuFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit(form: any): void {
+    console.log("You submitted value: ", form)
+
+  }
 }

@@ -1,7 +1,0 @@
-.
-./sku-form.component.ts
-./stoopid.txt
-./sku-form.component.spec.ts
-./crazy.sh
-./sku-form.component.css
-./sku-form.component.html

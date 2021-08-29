@@ -43,3 +43,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Extra
+src/app/components/sku-form-fb/crazy.sh
+src/app/components/sku-form-fb/crazy.sh
